@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="/assets/css/main.css" >
+    <link rel="stylesheet" href="https://use.typekit.net/rgq8btn.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  </head>
+  <body class="page page-{{page.name | replace: ".md", "" }}">
+    <nav>
+      
+						{% for item in site.data.nav %}
+							<a href="/{{item.url}}">{{item.page}}</a>
+						{% endfor %}
+      
+      
+      </nav>
+    <h1>Charlie Hammond</h1>
+{{content}}
+
+<footer>
+  <p>Site created by <a href="http://jazz.lol" target="_blank">Jazz</a> in <a target="_blank" href="https://jekyllrb.com">Jekyll</a>.</p>
+</footer>
+  </body>
+</html>
