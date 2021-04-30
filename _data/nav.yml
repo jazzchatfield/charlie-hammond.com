@@ -1,8 +1,9 @@
-- page: Home
-  url: index.html
-- page: Work
-  url: work.html
-- page: News
-  url: news.html
-- page: Gallery
-  url: gallery.html
+items:
+   - page: Home
+     url: index.html
+   - page: Work
+     url: work.html
+   - page: News
+     url: news.html
+   - page: Gallery
+     url: gallery.html

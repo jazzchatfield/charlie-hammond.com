@@ -15,7 +15,7 @@
   <body class="page page-{{page.name | replace: ".md", "" }}">
     <nav>
       
-						{% for item in site.data.nav %}
+						{% for item in site.data.nav.items %}
 							<a href="/{{item.url}}">{{item.page}}</a>
 						{% endfor %}
       
