@@ -1,9 +1,9 @@
 items:
-   - page: Home
+   - name: Home
      url: index.html
-   - page: Work
+   - name: Work
      url: work.html
-   - page: News
+   - name: News
      url: news.html
-   - page: Gallery
+   - name: Gallery
      url: gallery.html
