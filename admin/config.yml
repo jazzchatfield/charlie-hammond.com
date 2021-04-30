@@ -3,6 +3,8 @@ backend:
    repo: jasminechatfield/charlie-hammond.com
    site_domain: competent-lamport-0d07fb.netlify.com
    branch: main # Branch to update (optional; defaults to master)
+   base_url: charlie.jazz.lol
+   auth_endpoint: oauth/authorize
 media_folder: "assets/img/uploads" # Media files will be stored in the repo under images/uploads
 collections:
    - name: "news" # Used in routes, e.g., /admin/collections/blog
