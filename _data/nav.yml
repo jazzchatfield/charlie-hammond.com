@@ -1,9 +1,11 @@
 items:
-   - name: Home
-     url: index.html
-   - name: Work
-     url: work.html
-   - name: News
-     url: news.html
-   - name: Gallery
-     url: gallery.html
+  - name: Home
+    url: index.html
+  - name: Work
+    url: work.html
+  - name: News
+    url: news.html
+  - name: Gallery
+    url: gallery.html
+  - name: Jazz
+    url: jazz.html
