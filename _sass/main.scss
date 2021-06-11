@@ -7,6 +7,7 @@
 h1 {
    font-family: "LuloCleanOutline-Bold";
    font-size: 90px;
+   line-height: 1.5em;
 }
 
 h2 {
@@ -17,6 +18,8 @@ h2 {
 body {
    font-family: futura-pt, "Helvetica", "Arial", sans-serif;
    font-weight: 500;
+   font-size: 24px;
+   line-height: 1.7em;
 }
 
 #site-container {
@@ -34,22 +37,48 @@ nav {
    border-top: 1px solid #f1678f;
    border-bottom: 1px solid #f1678f;
    display: inline-block;
-   ul {
+   #nav-menu {
       margin: 0;
       padding-inline-start: 0;
       font-size: 35px;
       line-height: 58px;
+      .nav-item {
+         position: relative;
+      }
+      .nav-hover-menu {
+         visibility: hidden;
+         padding: 0 15px 0 15px;
+         max-width: 500px;
+         width: max-content;
+         position: absolute;
+         left: -175px;
+
+         background-color: #fbb7c9;
+         li {
+            display: block;
+            width: unset;
+            &:hover {
+               a {
+                  color: #f1678f;
+               }
+            }
+         }
+      }
       li {
          display: inline-block;
          width: 175px;
+         &:hover {
+            .nav-item-link {
+               color: #f1678f;
+            }
+            .nav-hover-menu {
+               visibility: visible;
+            }
+         }
       }
       a {
          text-decoration: none;
          color: black;
-
-         &:hover {
-            color: #f1678f;
-         }
       }
    }
 }
