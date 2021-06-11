@@ -1,7 +1,77 @@
+@font-face {
+   font-family: "LuloCleanOutline-Bold";
+   src: url("/assets/font/LuloCleanOutlineBold/font.woff2") format("woff2"),
+      url("/assets/font/LuloCleanOutlineBold/font.woff") format("woff");
+}
+
+h1 {
+   font-family: "LuloCleanOutline-Bold";
+   font-size: 90px;
+}
+
+h2 {
+   font-family: "LuloCleanOutline-Bold";
+   font-size: 65px;
+}
+
 body {
-   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+   font-family: futura-pt, "Helvetica", "Arial", sans-serif;
+   font-weight: 500;
+}
+
+#site-container {
+   width: 800px;
+   text-align: center;
+   margin: 0 auto;
+   padding: 50px 0 10px 0;
 }
 
 img {
    width: 500px;
+}
+
+nav {
+   border-top: 1px solid #f1678f;
+   border-bottom: 1px solid #f1678f;
+   display: inline-block;
+   ul {
+      margin: 0;
+      padding-inline-start: 0;
+      font-size: 35px;
+      line-height: 58px;
+      li {
+         display: inline-block;
+         width: 175px;
+      }
+      a {
+         text-decoration: none;
+         color: black;
+
+         &:hover {
+            color: #f1678f;
+         }
+      }
+   }
+}
+
+figure {
+   display: inline-block;
+}
+figcaption {
+   text-align: right;
+}
+
+hr {
+   width: 500px;
+   height: 0px;
+   padding-top: 5px;
+   border-width: 3px 0px 1px 0px;
+   margin-top: 25px;
+   margin-bottom: 25px;
+   border-style: solid;
+   border-color: #fbb7c9;
+}
+
+.nav-item {
+   list-style-type: none;
 }

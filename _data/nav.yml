@@ -1,11 +1,32 @@
 items:
-  - name: Home
-    url: index.html
-  - name: Work
-    url: work.html
-  - name: News
-    url: news.html
-  - name: Gallery
-    url: gallery.html
-  - name: Jazz
-    url: jazz.html
+   - name: Home
+     url: index.html
+   - name: Work
+     url: work.html
+     subnav:
+        - name: Conversations with my dead selves
+          url: work/conversations.html
+        - name: Clonely
+          url: work/clonely.html
+        - name: Brain Worms
+          url: work/brainworms.html
+        - name: The Performer Is Cancelled
+          url: work/performeriscancelled.html
+        - name: Hark! Hail!
+          url: work/harkhail.html
+        - name: Das Schwimmer
+          url: work/dasschwimmer.html
+        - name: Heartcase/Beaut
+          url: work/heartcasebeaut.html
+        - name: Performers' Playground Company
+          url: work/performersplayground.html
+        - name: Rite
+          url: work/rite.html
+        - name: Directing
+          url: work/directing.html
+        - name: Archive
+          url: work/archive.html
+   - name: News
+     url: news.html
+   - name: Gallery
+     url: gallery.html

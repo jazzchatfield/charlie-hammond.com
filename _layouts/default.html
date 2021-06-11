@@ -8,24 +8,34 @@
 
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="/assets/css/main.css" >
-    <link rel="stylesheet" href="https://use.typekit.net/rgq8btn.css">
+    <link rel="stylesheet" href="https://use.typekit.net/qfi1ylj.css">
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
 
   </head>
   <body class="page page-{{page.name | replace: ".md", "" }}">
+    <div id="site-container">
     <nav>
-      
+      <ul>
 						{% for item in site.data.nav.items %}
-							<a href="/{{item.url}}">{{item.name}}</a>
+							<li class="nav-item"><a href="/{{item.url}}">{{item.name}} </a></li>
+
+              {% if item.subnav %} <div class="nav-hover-menu">
+                <ul>
+                  { % for subnav in site.data.nav.item}
+                </ul>
+              </div> {% endif %}
+
 						{% endfor %}
       
-      
+          </ul>
       </nav>
-    <h1>Charlie Hammond</h1>
+    <h1 class="LuloCleanOutlineBold">Charlie Hammond</h1>
+    <main>
 {{content}}
-
+</main>
 <footer>
-  <p>Site created by <a href="http://jazz.lol" target="_blank">Jazz</a> in <a target="_blank" href="https://jekyllrb.com">Jekyll</a>.</p>
+  <p>Site created by <a href="http://jazz.lol" target="_blank">Jazz</a>.</p>
 </footer>
+</div>
   </body>
 </html>

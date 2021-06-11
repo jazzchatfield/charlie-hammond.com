@@ -3,9 +3,11 @@ layout: default
 title: Home
 ---
 
-![Photo Credit: Olivia J Lennon](assets/img/flimpulp.jpg)
+{% include image.html url="assets/img/flimpulp.jpg" alt="Charlie" description="Photo Credit: Olivia J Lennon" %}
 
-![Photo Credit: Anthony Robling](assets/img/headshot.png)
+---
+
+{% include image.html url="assets/img/headshot.png" alt="Charlie" description="Photo Credit: Anthony Robling" %}
 
 Charlie Hammond is an actor and clown.
 
@@ -19,9 +21,11 @@ Charlie is currently training to become a qualified Giggle Doctor, working with 
 
 He is based in Sheffield.
 
+---
+
 ## Contact
 
-![Photo Credit: Jack Kirwin](assets/img/schloss.png)
+{% include image.html url="assets/img/schloss.png" alt="Charlie" description="Photo Credit: Jack Kirwin" %}
 
 For those who are interested here is my [Résumé](assets/pdf/resume.pdf){:target="\_blank"}
 
