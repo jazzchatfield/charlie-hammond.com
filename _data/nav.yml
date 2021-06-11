@@ -1,4 +1,5 @@
 items:
+<<<<<<< HEAD
    - name: Home
      url: index.html
    - name: Work
@@ -30,3 +31,17 @@ items:
      url: news.html
    - name: Gallery
      url: gallery.html
+=======
+  - name: Home
+    url: index.html
+  - name: Work
+    url: work.html
+  - name: News
+    url: news.html
+  - name: Gallery
+    url: gallery.html
+  - name: Jazz
+    url: jazz.html
+  - name: Butts
+    url: butts
+>>>>>>> 0891883b9541fc639c89704ad28cbb52627e2d38
