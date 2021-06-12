@@ -7,7 +7,7 @@ title: Home
 
 ---
 
-{% include image.html url="assets/img/headshot.png" alt="Charlie" description="Photo Credit: Anthony Robling" %}
+{% include image.html url="assets/img/headshot.png" alt="Charlie" description="Photo Credit: Anthony Robling" float="left" %}
 
 Charlie Hammond is an actor and clown.
 
@@ -25,7 +25,7 @@ He is based in Sheffield.
 
 ## Contact
 
-{% include image.html url="assets/img/schloss.png" alt="Charlie" description="Photo Credit: Jack Kirwin" %}
+{% include image.html url="assets/img/schloss.png" alt="Charlie" description="Photo Credit: Jack Kirwin" float="left" %}
 
 For those who are interested here is my [Résumé](assets/pdf/resume.pdf){:target="\_blank"}
 

@@ -17,13 +17,14 @@ h2 {
 
 body {
    font-family: futura-pt, "Helvetica", "Arial", sans-serif;
-   font-weight: 500;
-   font-size: 24px;
+   font-weight: 900;
+   letter-spacing: 0.8px;
+   font-size: 20px;
    line-height: 1.7em;
 }
 
 #site-container {
-   width: 800px;
+   width: 1000px;
    text-align: center;
    margin: 0 auto;
    padding: 50px 0 10px 0;
@@ -83,11 +84,29 @@ nav {
    }
 }
 
+p:first-of-type {
+   margin-top: 50px;
+}
+
 figure {
    display: inline-block;
+   line-height: 1em;
 }
 figcaption {
    text-align: right;
+   font-size: smaller;
+}
+
+.float-left {
+   float: left;
+
+   figcaption {
+      text-align: left;
+   }
+}
+
+.float-right {
+   float: right;
 }
 
 hr {
