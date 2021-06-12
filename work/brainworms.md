@@ -3,8 +3,6 @@ layout: default
 title: Brain Worms
 ---
 
-## Brain Worms
-
 Combining previous ideas for shows and smooshing them together into one arty disaster, Charlie and Jasmine have conceived a new piece of work to develop - Brain Worms. A show about the things that can get into your head, as well as the THINGS that can get into your head.
 
 “Everything’s become infested by worms. Charlie has built a coat out of them. Jazz is overrun and starting to think he might be a worm himself. There’s worms on the internet, worms starting quasi-political movements, and worms in everyone’s brains.
@@ -25,11 +23,11 @@ THEMES - mental health, worms, the power of ideas, individualism vs collectivism
 
 AESTHETIC - silly, bright and cobbled together: hundreds of ‘worm-on-a-string’s, full-sized worm costumes made from sleeping bags and the biggest googly eyes we can find, cartoon drawings and cobbled-together technology that shouldn’t work but somehow does.
 
-SOUNDTRACK - wormy songs (Dr Worm - They Might Be Giants, The Caterpillar - The Cure) and earworms (Video Killed The Radio Star, Insomnia - Faithless, Chumbawamba, )
+SOUNDTRACK - wormy songs (Dr Worm - They Might Be Giants, The Caterpillar - The Cure) and earworms (Video Killed The Radio Star, Insomnia - Faithless, Chumbawamba)
 
 EXPECT - dance sequences, montages, physical comedy, bits that seem lighthearted but turn out not to be, bits that start off dark but turn out not to be, audience making decisions on how the show progresses (live audience and at-home audience alike), dream sequences, games, and worms
 
--
+---
 
 With support from The Lowry Theatre, Charlie explored some initial audio ideas alongside other thoughts. Working with sound-designer and all round wizard Ben Leverett-Jaques, Charlie created this creepy, binaural audio (best enjoyed with headphones):
 
