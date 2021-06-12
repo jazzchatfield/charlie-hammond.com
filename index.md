@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Home
 ---
 
@@ -8,6 +8,8 @@ title: Home
 ---
 
 {% include image.html url="assets/img/headshot.png" alt="Charlie" description="Photo Credit: Anthony Robling" float="left" %}
+
+<div class="text-block" markdown="1">
 
 Charlie Hammond is an actor and clown.
 
@@ -21,11 +23,15 @@ Charlie is currently training to become a qualified Giggle Doctor, working with 
 
 He is based in Sheffield.
 
+</div>
+
 ---
 
 ## Contact
 
 {% include image.html url="assets/img/schloss.png" alt="Charlie" description="Photo Credit: Jack Kirwin" float="left" %}
+
+<div class="text-block" markdown="1">
 
 For those who are interested here is my [Résumé](assets/pdf/resume.pdf){:target="\_blank"}
 
@@ -41,3 +47,5 @@ Upcoming gigs can be found on the socials
 
 [Facebook](){:target="\_blank"}
 [Twitter](){:target="\_blank"}
+
+</div>

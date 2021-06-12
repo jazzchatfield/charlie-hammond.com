@@ -4,6 +4,18 @@
       url("/assets/font/LuloCleanOutlineBold/font.woff") format("woff");
 }
 
+body {
+   font-family: futura-pt, "Helvetica", "Arial", sans-serif;
+   font-weight: 900;
+   letter-spacing: 0.8px;
+   font-size: 22px;
+   line-height: 1.7em;
+}
+
+a {
+   color: black;
+}
+
 h1 {
    font-family: "LuloCleanOutline-Bold";
    font-size: 90px;
@@ -13,14 +25,17 @@ h1 {
 h2 {
    font-family: "LuloCleanOutline-Bold";
    font-size: 65px;
+   line-height: 1em;
+   text-align: center;
 }
 
-body {
-   font-family: futura-pt, "Helvetica", "Arial", sans-serif;
-   font-weight: 900;
-   letter-spacing: 0.8px;
-   font-size: 20px;
-   line-height: 1.7em;
+.small-header {
+   font-size: 50px;
+   color: #f1678f;
+   text-shadow: -40px -40px 0 #f1678f, -20px -20px 0 #f1678f,
+      20px 20px 0 #f1678f, 40px 40px 0 #f1678f;
+   margin-top: 50px;
+   margin-bottom: 50px;
 }
 
 #site-container {
@@ -28,6 +43,12 @@ body {
    text-align: center;
    margin: 0 auto;
    padding: 50px 0 10px 0;
+}
+
+.page {
+   text-align: left;
+   width: 800px;
+   margin: 0 auto;
 }
 
 img {
@@ -38,6 +59,8 @@ nav {
    border-top: 1px solid #f1678f;
    border-bottom: 1px solid #f1678f;
    display: inline-block;
+   margin-top: 50px;
+   margin-bottom: 50px;
    #nav-menu {
       margin: 0;
       padding-inline-start: 0;
@@ -84,8 +107,9 @@ nav {
    }
 }
 
-p:first-of-type {
+.text-block {
    margin-top: 50px;
+   overflow: auto;
 }
 
 figure {
@@ -114,8 +138,8 @@ hr {
    height: 0px;
    padding-top: 5px;
    border-width: 3px 0px 1px 0px;
-   margin-top: 25px;
-   margin-bottom: 25px;
+   margin-top: 100px;
+   margin-bottom: 100px;
    border-style: solid;
    border-color: #fbb7c9;
 }

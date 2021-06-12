@@ -1,0 +1,17 @@
+<nav>
+   <ul id="nav-menu">
+      {% for item in site.data.nav.items %}
+      <li class="nav-item" id="{{item.name}}">
+         <a href="/{{item.url}}" class="nav-item-link">{{item.name}} </a>
+
+         {% if item.subnav %}
+         <ul id="nav-hover-menu-{{item.name}}" class="nav-hover-menu hidden">
+            {% for subitem in item.subnav %}
+            <li><a href="/{{subitem.url}}">{{subitem.name}}</a></li>
+            {% endfor %}
+         </ul>
+         {% endif %}
+      </li>
+      {% endfor %}
+   </ul>
+</nav>

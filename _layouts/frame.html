@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="/assets/css/main.css" >
+    <link rel="stylesheet" href="https://use.typekit.net/qfi1ylj.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+
+  </head>
+  <body class="page-{{page.name | replace: ".md", "" }}">
+    <div id="site-container">
+
+
+{{content}}
+
+<footer>
+  <p>Site created by <a href="http://jazz.lol" target="_blank">Jazz</a>.</p>
+</footer>
+</div>
+  </body>
+</html>

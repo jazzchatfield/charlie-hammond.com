@@ -1,44 +1,8 @@
+---
+layout: frame
+---
 
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="/assets/css/main.css" >
-    <link rel="stylesheet" href="https://use.typekit.net/qfi1ylj.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-
-  </head>
-  <body class="page page-{{page.name | replace: ".md", "" }}">
-    <div id="site-container">
-    <nav>
-      <ul id="nav-menu">
-						{% for item in site.data.nav.items %}
-							<li class="nav-item" id={{item.name}}><a href="/{{item.url}}" class="nav-item-link">{{item.name}} </a>
-
-              {% if item.subnav %}
-                <ul id="nav-hover-menu-{{item.name}}" class="nav-hover-menu hidden">
-                  {% for subitem in item.subnav %}
-  <li><a href="/{{subitem.url}}">{{subitem.name}}</a></li>
-                  {% endfor %}
-
-                </ul>
-             {% endif %}
-            </li>
-						{% endfor %}
-      
-          </ul>
-      </nav>
-    <h1 class="LuloCleanOutlineBold">Charlie Hammond</h1>
-    <main>
-{{content}}
-</main>
-<footer>
-  <p>Site created by <a href="http://jazz.lol" target="_blank">Jazz</a>.</p>
-</footer>
-</div>
-  </body>
-</html>
+<h1 class="small-header">Charlie Hammond</h1>
+{% include nav.html %}
+<h2>{{page.title}}</h2>
+<main class="page">{{content}}</main>
