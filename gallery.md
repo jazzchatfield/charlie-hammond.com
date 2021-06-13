@@ -3,4 +3,4 @@ layout: default
 title: Gallery
 ---
 
-Gallery
+Coming soon :)

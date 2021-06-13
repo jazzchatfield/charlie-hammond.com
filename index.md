@@ -35,9 +35,9 @@ He is based in Sheffield.
 
 For those who are interested here is my [Résumé](assets/pdf/resume.pdf){:target="\_blank"}
 
-Here is my live performance [Showreel](){:target="\_blank"}
+Here is my live performance [Showreel](https://vimeo.com/532588949){:target="\_blank"}
 
-Here is my acting [Showreel](){:target="\_blank"}
+Here is my acting [Showreel](https://vimeo.com/273401011){:target="\_blank"}
 
 Or chats, advice, thoughts, and feelings, hit me up at:
 
@@ -45,7 +45,7 @@ Or chats, advice, thoughts, and feelings, hit me up at:
 
 Upcoming gigs can be found on the socials
 
-[Facebook](){:target="\_blank"}
-[Twitter](){:target="\_blank"}
+[Facebook](https://www.facebook.com/charlie.hammond.16){:target="\_blank"}
+[Twitter](https://twitter.com/Charlie_Hammond){:target="\_blank"}
 
 </div>
