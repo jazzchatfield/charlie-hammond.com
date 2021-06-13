@@ -32,4 +32,4 @@ Occasionally poignant, often dark but mainly silly, Clonely is a mixture of thea
 
 </div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_n8ih28wPxM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="video-big" width="560" height="315" src="https://www.youtube.com/embed/_n8ih28wPxM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
