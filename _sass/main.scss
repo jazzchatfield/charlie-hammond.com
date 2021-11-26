@@ -20,6 +20,7 @@ h1 {
    font-family: "LuloCleanOutline-Bold";
    font-size: 90px;
    line-height: 1.5em;
+   text-shadow: 5px 5px 0 #fbb7c9;
 }
 
 h2 {
@@ -34,7 +35,7 @@ h2 {
 
 h3 {
    font-size: 28px;
-   letter-spacing: 3px;
+   // letter-spacing: 3px;
    // text-decoration-line: underline;
    // text-decoration-color: #f1678f;
    // text-decoration-style: double;
@@ -46,6 +47,7 @@ h3 {
    margin-block-start: 2em;
    background-color: #fbb7c9;
    padding: 10px;
+   text-transform: uppercase;
 }
 
 text {
@@ -266,9 +268,37 @@ footer {
    margin: auto;
    width: 700px;
    height: 400px;
+   text-align: center;
 }
 
 .news {
    list-style-type: none;
    padding-inline-start: 0;
+}
+
+.localvideo.center {
+   text-align: center;
+   box-sizing: border-box;
+   padding: 6rem 0 3rem 0;
+   video {
+      width: 600px;
+   }
+}
+
+.localvideo.withtext {
+   display: flex;
+   margin: 3rem 0;
+   width: 100%;
+   box-sizing: border-box;
+   justify-items: center;
+   align-items: center;
+   video {
+      width: 500px;
+   }
+   .withtext__text {
+      width: 100%;
+      text-align: center;
+      font-size: 2rem;
+      margin-left: 2rem;
+   }
 }

@@ -24,6 +24,8 @@ items:
           url: work/rite.html
         - name: Directing
           url: work/directing.html
+        - name: Archive
+          url: work/archive.html
    - name: News
      url: news.html
    - name: Gallery
