@@ -15,7 +15,7 @@ Hark! Hail! is a show about the systems of power, ego, apathy and the madness of
 
 Having finally tamed his ego, performer Charlie Hammond unleashes his greatness in a chaotic solo-performance attempt to stir the hearts and minds of the audience to destroy him and his art at all costs.
 
-{% include localvideowithtext.html video="harkhail.mp4" text="'Highly original'
+{% include localvideowithtext.html video="harkhail.mov" text="'Highly original'
 
 'Wonderfully surreal'
 
@@ -51,7 +51,7 @@ singing, balloons, and Oreos.
 
 A joyous celebration of the art of solo-synchronised swimming. Sometimes beautiful, sometimes chaotic. Charlie is currently working this into a longer ribbon-swirling, baton-twirling gymnastic extravaganza.
 
-{% include localvideowithtext.html video="schwimmer.mp4" text="'uplifting and extremely original'
+{% include localvideowithtext.html video="schwimmer.mov" text="'uplifting and extremely original'
 
 About Manchester" %}
 
@@ -65,4 +65,4 @@ Designed for theatre and fringe spaces, but unable to settle on a name, Heartcas
 
 It was first scratched at the West Yorkshire Playhouse Leeds in 2015 and subsequently turned into a full show for the Manchester Fringe Festival 2016.
 
-{% include localvideo.html video="beaut.mp4" %}
+{% include localvideo.html video="beaut.mov" %}
