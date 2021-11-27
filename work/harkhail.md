@@ -14,15 +14,10 @@ Currently the work has been scratched at the Viaduct in Stockport, and at The Lo
 
 </div>
 
-{% include video.html width="500" src="" caption="© Vian Curtis" %}
-
-<div class="text-block" markdown="1">
-'Highly original'
+{% include localvideowithtext.html video="harkhail.mov" text="'Highly original'
 
 'Wonderfully surreal'
 
 'Nice piece, imaginative, modern clown of now'
 
-Audience Feedback
-
-</div>
+Audience Feedback" %}

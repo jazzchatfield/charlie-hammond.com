@@ -13,4 +13,4 @@ It was first scratched at the West Yorkshire Playhouse Leeds in 2015 and subsequ
 
 </div>
 
-embed video
+{% include localvideo.html video="beaut.mov" %}
